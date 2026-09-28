@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const axiosClient = axios.create({
   baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://foodie-5ohs.onrender.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
