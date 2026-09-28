@@ -96,7 +96,4 @@ npm run test
 
 ---
 
-## Default Demo Credentials
 
-- **Customer Demo User**: `user@foodie.com` / `userpassword123`
-- **Admin User**: `admin@foodie.com` / `adminpassword123`
